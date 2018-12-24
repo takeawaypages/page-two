@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body::after{
+	position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+	content:url('img/scene00241.png') url('img/scene00281.png') url('img/scene00321.png') url('img/scene00361.png') url('img/scene00401.png')
+	url('img/scene00441.png') url('img/scene00481.png') url('img/scene00521.png') url('img/scene00561.png') url('img/scene00601.png');
+}
+.textContainer, .text {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.textContainer {
+	padding-top: 50vh;
+}
+.text {
+	color: white;
+	text-align: center;
+}
+.bg {
+	height: 100%;
+	width: 100%;
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.bg[data-bg-scene='1'] {
+	background-image: url('img/scene00241.png');
+}
+.bg[data-bg-scene='2'] {
+	background-image: url('img/scene00281.png');
+}
+.bg[data-bg-scene='3'] {
+	background-image: url('img/scene00321.png');
+}
+.bg[data-bg-scene='4'] {
+	background-image: url('img/scene00361.png');
+}
+.bg[data-bg-scene='5'] {
+	background-image: url('img/scene00401.png');
+}
+.bg[data-bg-scene='6'] {
+	background-image: url('img/scene00441.png');
+}
+.bg[data-bg-scene='7'] {
+	background-image: url('img/scene00481.png');
+}
+
+.bg[data-bg-scene='8'] {
+	background-image: url('img/scene00521.png');
+}
+
+.bg[data-bg-scene='9'] {
+	background-image: url('img/scene00561.png');
+}
+
+.bg[data-bg-scene='10'] {
+	background-image: url('img/scene00601.png');
+}
