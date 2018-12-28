@@ -7,7 +7,12 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/appear.js"></script>
 </head>
-<body>
+<body style="display:none">
+<script>
+    window.addEventListener("load", function(event) {
+        document.getElementsByTagName("body")[0].removeAttribute("style");
+    });
+</script>
     <div class="bg"></div>
     <div class="textContainer">
         <div data-textLine="repulsion/1" class="text text-2">Είχε πάει 11 όταν</div>
