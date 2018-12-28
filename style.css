@@ -6,8 +6,66 @@ html, body {
 }
 body::after{
 	position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-	content:url('img/scene00241.png') url('img/scene00281.png') url('img/scene00321.png') url('img/scene00361.png') url('img/scene00401.png')
-	url('img/scene00441.png') url('img/scene00481.png') url('img/scene00521.png') url('img/scene00561.png') url('img/scene00601.png');
+	content:url('img/repulsion/1.png') url('img/repulsion/2.png') url('img/repulsion/3.png') url('img/repulsion/4.png') url('img/repulsion/5.png')
+	url('img/repulsion/6.png') url('img/repulsion/7.png') url('img/repulsion/8.png') url('img/repulsion/9.png') url('img/repulsion/10.png')
+	url('img/gypsies/11.png') url('img/gypsies/12.png') url('img/gypsies/13.png') url('img/gypsies/14.png')
+	url('img/gypsies/15.png') url('img/gypsies/16.png') url('img/gypsies/17.png') url('img/gypsies/18.png')
+	url('img/gypsies/19.png') url('img/gypsies/20.png') url('img/gypsies/21.png') url('img/gypsies/22.png')
+	url('img/gypsies/23.png') url('img/gypsies/24.png') url('img/gypsies/25.png')
+	url('img/gypsies/26.png') url('img/gypsies/27.png') url('img/gypsies/28.png') url('img/gypsies/29.png')
+	url('img/gypsies/30.png') url('img/gypsies/31.png') url('img/gypsies/32.png') url('img/gypsies/33.png')
+	url('img/fitz/1.png') url('img/fitz/2.png') url('img/fitz/3.png') url('img/fitz/4.png')
+	url('img/fitz/5.png') url('img/fitz/6.png') url('img/fitz/7.png') url('img/fitz/8.png')
+	url('img/fitz/9.png') url('img/fitz/10.png') url('img/fitz/11.png')
+	url('img/stroszek/1.png')
+	url('img/stroszek/2.png')
+	url('img/stroszek/3.png')
+	url('img/stroszek/4.png')
+	url('img/stroszek/5.png')
+	url('img/stroszek/6.png')
+	url('img/stroszek/7.png')
+	url('img/stroszek/8.png')
+	url('img/stroszek/9.png')
+	url('img/stroszek/10.png')
+	url('img/stroszek/11.png')
+	url('img/stroszek/12.png')
+	url('img/stroszek/13.png')
+	url('img/stroszek/14.png')
+	url('img/stroszek/15.png')
+	url('img/stroszek/16.png')
+	url('img/stroszek/17.png')
+	url('img/stroszek/18.png')
+	url('img/stroszek/19.png')
+	url('img/stroszek/20.png')
+	url('img/voskoi/1.png')
+	url('img/voskoi/2.png')
+	url('img/voskoi/3.png')
+	url('img/voskoi/4.png')
+	url('img/voskoi/5.png')
+	url('img/voskoi/6.png')
+	url('img/voskoi/7.png')
+	url('img/voskoi/8.png')
+	url('img/voskoi/9.png')
+	url('img/voskoi/10.png')
+	url('img/voskoi/11.png')
+	url('img/voskoi/12.png')
+	url('img/voskoi/13.png')
+	url('img/voskoi/14.png')
+	url('img/voskoi/15.png')
+	url('img/voskoi/16.png')
+	url('img/fitz-2/1.png')
+	url('img/fitz-2/2.png')
+	url('img/fitz-2/3.png')
+	url('img/fitz-2/4.png')
+	url('img/fitz-2/5.png')
+	url('img/fitz-2/6.png')
+	url('img/fitz-2/7.png')
+	url('img/fitz-2/8.png')
+	url('img/fitz-2/9.png')
+	url('img/fitz-2/10.png')
+	url('img/fitz-2/11.png')
+	url('img/fitz-2/12.png')
+	url('img/fitz-2/13.png');
 }
 .textContainer, .text {
 	width: 100%;
@@ -21,6 +79,13 @@ body::after{
 .text {
 	color: white;
 	text-align: center;
+	font-size: 1.4em;
+}
+.text-2 {
+	height: 50%;
+}
+.text-3 {
+	height: 33%;
 }
 .bg {
 	height: 100%;
@@ -33,36 +98,36 @@ body::after{
 	top: 0;
 	left: 0;
 }
-.bg[data-bg-scene='1'] {
-	background-image: url('img/scene00241.png');
+.bg[data-bg-scene='repulsion-1'] {
+	background-image: url('img/repulsion/1.png');
 }
-.bg[data-bg-scene='2'] {
-	background-image: url('img/scene00281.png');
+.bg[data-bg-scene='repulsion-2'] {
+	background-image: url('img/repulsion/2.png');
 }
-.bg[data-bg-scene='3'] {
-	background-image: url('img/scene00321.png');
+.bg[data-bg-scene='repulsion-3'] {
+	background-image: url('img/repulsion/3.png');
 }
-.bg[data-bg-scene='4'] {
-	background-image: url('img/scene00361.png');
+.bg[data-bg-scene='repulsion-4'] {
+	background-image: url('img/repulsion/4.png');
 }
-.bg[data-bg-scene='5'] {
-	background-image: url('img/scene00401.png');
+.bg[data-bg-scene='repulsion-5'] {
+	background-image: url('img/repulsion/5.png');
 }
-.bg[data-bg-scene='6'] {
-	background-image: url('img/scene00441.png');
+.bg[data-bg-scene='repulsion-6'] {
+	background-image: url('img/repulsion/6.png');
 }
-.bg[data-bg-scene='7'] {
-	background-image: url('img/scene00481.png');
-}
-
-.bg[data-bg-scene='8'] {
-	background-image: url('img/scene00521.png');
+.bg[data-bg-scene='repulsion-7'] {
+	background-image: url('img/repulsion/7.png');
 }
 
-.bg[data-bg-scene='9'] {
-	background-image: url('img/scene00561.png');
+.bg[data-bg-scene='repulsion-8'] {
+	background-image: url('img/repulsion/8.png');
 }
 
-.bg[data-bg-scene='10'] {
-	background-image: url('img/scene00601.png');
+.bg[data-bg-scene='repulsion-9'] {
+	background-image: url('img/repulsion/9.png');
+}
+
+.bg[data-bg-scene='repulsion-10'] {
+	background-image: url('img/repulsion/10.png');
 }
